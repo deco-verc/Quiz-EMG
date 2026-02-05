@@ -35,6 +35,7 @@ import { TimelineVisual } from './steps/TimelineVisual';
 import { ComparisonStep } from './steps/ComparisonStep';
 
 import { TimelineStep } from '@/components/gamification/TimelineStep';
+import { ProcessingStep } from '@/components/gamification/ProcessingStep';
 import { MethodDefinitiveIntro } from './steps/MethodDefinitiveIntro';
 
 import { DailyRoutineStep } from './steps/DailyRoutineStep';
@@ -67,6 +68,7 @@ const CustomComponents: Record<string, React.FC<any>> = {
     TimelineVisual,
     ComparisonStep,
     TimelineStep,
+    ProcessingStep,
     MethodDefinitiveIntro,
     DailyRoutineStep,
     HonestChanceStep,

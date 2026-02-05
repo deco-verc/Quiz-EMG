@@ -16,11 +16,11 @@ export const GenderStep = ({ config, onNext }: { config: any, onNext: () => void
     return (
         <div className="text-center max-w-xl mx-auto font-[family-name:var(--font-poppins)]">
             <h2 className="text-2xl md:text-3xl font-bold text-black text-center mb-8 leading-tight px-4">
-                Descubra o <span className="text-green-500">segredinho das  Japonesas</span> com a Dra Carolina M. <span className="text-red-600">Nutróloga e especialista em emagrecimento</span>
+                Descubra o <span className="text-green-500">Segredinho das Japonesas</span> com a Dra Carolina M. <span className="text-blue-500">Nutróloga dos Famosos</span>
             </h2>
 
             <div className="mb-4 flex flex-col items-center justify-center">
-                <img src="/images/start-quiz.png" alt="Começar Quiz" className="w-full max-w-md rounded-xl shadow-sm mb-4" loading="eager" />
+                <img src="https://i.imgur.com/HOPZ6KM.png" alt="Começar Quiz" className="w-full max-w-md rounded-xl shadow-sm mb-4" loading="eager" />
                 <p className="text-gray-600 font-bold text-sm uppercase tracking-widest">Teste gratuito de 1 minuto</p>
             </div>
 
@@ -29,13 +29,13 @@ export const GenderStep = ({ config, onNext }: { config: any, onNext: () => void
                     selected={false}
                     onClick={() => handleSelect('female')}
                 >
-                    Feminino
+                    Mulher
                 </OptionCard>
                 <OptionCard
                     selected={false}
                     onClick={() => handleSelect('male')}
                 >
-                    Masculino
+                    Homem
                 </OptionCard>
             </div>
 
