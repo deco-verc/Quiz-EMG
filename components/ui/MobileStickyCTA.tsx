@@ -31,10 +31,7 @@ export const MobileStickyCTA = ({
             onCTAClick();
         } else {
             // Default behavior: scroll to checkout
-            const checkoutSection = document.getElementById('checkout');
-            if (checkoutSection) {
-                checkoutSection.scrollIntoView({ behavior: 'smooth' });
-            }
+            window.location.href = 'https://www.ggcheckout.com/checkout/v2/GHCIiLZmZ2CDKA6RelQa';
         }
     };
 

@@ -47,10 +47,10 @@ export const FinalCTA = () => {
                         <span className="text-6xl font-extrabold text-green-600 tracking-tight">R$ 47,90</span>
                     </div>
 
-                    <button className="w-full bg-green-500 hover:bg-green-600 text-white text-lg font-bold h-16 px-8 rounded-xl shadow-lg shadow-green-500/20 transition-all transform hover:-translate-y-1 active:scale-95 flex items-center justify-center gap-3 group mb-8">
+                    <a href="https://www.ggcheckout.com/checkout/v2/GHCIiLZmZ2CDKA6RelQa" className="w-full bg-green-500 hover:bg-green-600 text-white text-lg font-bold h-16 px-8 rounded-xl shadow-lg shadow-green-500/20 transition-all transform hover:-translate-y-1 active:scale-95 flex items-center justify-center gap-3 group mb-8">
                         QUERO MUDAR MINHA VIDA
                         <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                    </button>
+                    </a>
 
                     <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 text-sm text-gray-500">
                         <div className="flex items-center gap-2">

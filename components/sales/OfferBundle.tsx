@@ -70,9 +70,9 @@ export const OfferBundle = () => {
                         <FeatureItem icon={<Lock className="w-5 h-5 text-green-500" />} text="Compra Segura" />
                     </div>
 
-                    <button className="w-full bg-green-500 hover:bg-green-600 text-white text-lg font-bold h-16 px-8 rounded-xl shadow-lg shadow-green-500/30 transition-all transform hover:-translate-y-1 active:scale-95">
+                    <a href="https://www.ggcheckout.com/checkout/v2/GHCIiLZmZ2CDKA6RelQa" className="w-full bg-green-500 hover:bg-green-600 text-white text-lg font-bold h-16 px-8 rounded-xl shadow-lg shadow-green-500/30 transition-all transform hover:-translate-y-1 active:scale-95 flex items-center justify-center">
                         COMPRAR COM DESCONTO
-                    </button>
+                    </a>
 
                     <p className="text-center text-xs text-gray-400 mt-6 flex items-center justify-center gap-2 font-medium">
                         <Lock className="w-3 h-3" />

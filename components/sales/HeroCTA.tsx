@@ -106,10 +106,10 @@ export const HeroCTA = () => {
 
                     <RealCountdown />
 
-                    <button className="w-full bg-green-600 hover:bg-green-700 text-white text-lg font-bold h-16 px-8 rounded-xl shadow-lg shadow-green-500/30 transition-all transform hover:-translate-y-1 active:scale-95 flex items-center justify-center gap-3 group">
+                    <a href="https://www.ggcheckout.com/checkout/v2/GHCIiLZmZ2CDKA6RelQa" className="w-full bg-green-600 hover:bg-green-700 text-white text-lg font-bold h-16 px-8 rounded-xl shadow-lg shadow-green-500/30 transition-all transform hover:-translate-y-1 active:scale-95 flex items-center justify-center gap-3 group">
                         QUERO COMPRAR COM DESCONTO
                         <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                    </button>
+                    </a>
                 </motion.div>
             </div>
         </section>
