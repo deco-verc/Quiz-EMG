@@ -22,7 +22,7 @@ export const GenderStep = ({ config, onNext }: { config: any, onNext: () => void
 
             <div className="mb-4 flex flex-col items-center justify-center">
                 <Image
-                    src="/images/start-quiz.png"
+                    src="https://i.imgur.com/c4VYg4c.png"
                     alt="Começar Quiz"
                     width={448}
                     height={448}
