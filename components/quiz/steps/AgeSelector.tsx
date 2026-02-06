@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import { useQuizStore } from '@/store/quizStore';
 import { ChevronRight } from 'lucide-react';
 import clsx from 'clsx';
@@ -35,11 +36,12 @@ export const AgeSelector = ({ config, onNext }: { config: any, onNext: () => voi
                     >
                         {/* Image Container */}
                         <div className="w-full aspect-[4/5] bg-gray-100 relative">
-                            <img
+                            <Image
                                 src={option.image}
                                 alt={option.label}
-                                className="w-full h-full object-cover"
-                                loading="eager"
+                                fill
+                                sizes="(max-width: 768px) 50vw, 33vw"
+                                className="object-cover"
                             />
                         </div>
 

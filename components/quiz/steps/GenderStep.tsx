@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import { useQuizStore } from '@/store/quizStore';
 import { OptionCard } from '../OptionCard';
 
@@ -20,7 +21,14 @@ export const GenderStep = ({ config, onNext }: { config: any, onNext: () => void
             </h2>
 
             <div className="mb-4 flex flex-col items-center justify-center">
-                <img src="https://i.imgur.com/HOPZ6KM.png" alt="Começar Quiz" className="w-full max-w-md rounded-xl shadow-sm mb-4" loading="eager" />
+                <Image
+                    src="/images/start-quiz.png"
+                    alt="Começar Quiz"
+                    width={448}
+                    height={448}
+                    priority
+                    className="w-full max-w-md rounded-xl shadow-sm mb-4"
+                />
                 <p className="text-gray-600 font-bold text-sm uppercase tracking-widest">Teste gratuito de 1 minuto</p>
             </div>
 

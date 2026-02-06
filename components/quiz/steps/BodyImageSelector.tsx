@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { useQuizStore } from '@/store/quizStore';
 import { NextButton } from '../NextButton';
 import clsx from 'clsx';
@@ -39,7 +40,14 @@ export const BodyImageSelector = ({ config, onNext }: { config: any, onNext: () 
                     >
                         <div className="w-full aspect-[3/4] bg-gray-200 rounded-lg mb-2 overflow-hidden relative">
                             {option.image ? (
-                                <img src={option.image} alt={option.label} className="w-full h-full object-cover" />
+                                <Image
+                                    src={option.image}
+                                    alt={option.label}
+                                    fill
+                                    sizes="(max-width: 768px) 50vw, 33vw"
+                                    className="object-cover"
+                                    unoptimized
+                                />
                             ) : (
                                 <div className="flex items-center justify-center h-full text-gray-400">Sem imagem</div>
                             )}
